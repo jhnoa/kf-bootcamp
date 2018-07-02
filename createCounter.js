@@ -10,9 +10,19 @@ class createCounter{
     decrement(){
         this.count -= 1
     }
+
+    showCount(){
+        console.log(this.count)
+    }
 }
 
 let count = new createCounter();
 count.increment()
 count.decrement()
-console.log(count)
+count.increment()
+count.increment()
+count.showCount()
+
+
+
+ 
