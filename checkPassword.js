@@ -14,16 +14,16 @@ function checkPassword(input){
     }
 
     if (input.length < 6){
-         return  false;
+        return 'Password needs to be at least 6 characters.'
     }
     else {
-        if (hasLowerCase(input) === false && hasUpperCase(input) === false) {
-             return false
+        if (hasLowerCase(input) === false || hasUpperCase(input) === false) {
+        return 'Password needs to have both lowercase and uppercase.'
         }
     }
 
-    return true
+   return 'Password approved.'
 }
 
-let input = 'passWord'
+let input = 'tes'
 console.log(checkPassword(input))
