@@ -25,5 +25,5 @@ function checkPassword(input){
    return 'Password approved.'
 }
 
-let input = 'tes'
-console.log(checkPassword(input))
+let password = 'tedsssdsdsds'
+console.log(checkPassword(password))

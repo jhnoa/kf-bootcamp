@@ -11,7 +11,7 @@
         return false
     }
 
-    let a = [1,2,3]
+    let a = [1,2,3,4]
     let b = [1,2,3,4]
 
     console.log(compareArrays(a,b))

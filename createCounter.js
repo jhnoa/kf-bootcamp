@@ -1,10 +1,9 @@
 class createCounter{
-    constructor(){
-        this.count = 0
-    }
+    count = 0;
+
 
     increment(){
-        count +=1
+        this.count +=1
     }
 
     decrement(){
