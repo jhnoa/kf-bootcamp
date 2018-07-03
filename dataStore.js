@@ -3,7 +3,7 @@
 2) set = take key and value // string & mixed // store the value in the database 
 3) foreach = loop through the database 
 */
-
+ 
 class DataStore {
     constructor() {
       this.data = []
@@ -24,7 +24,7 @@ class DataStore {
         })
     }
 
-    forEach(){
+    loopData(){
         this.data.forEach(function(el){
             console.log(el)
         })
@@ -35,4 +35,4 @@ class DataStore {
   data.set('abc',123)
   data.set('bcd', 334)
   data.get('value')
-  data.forEach() 
+  data.loopData() 

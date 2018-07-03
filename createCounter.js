@@ -1,4 +1,4 @@
-class createCounter{
+class CreateCounter{
     count = 0;
 
 
@@ -21,7 +21,3 @@ count.decrement()
 count.increment()
 count.increment()
 count.showCount()
-
-
-
- 
