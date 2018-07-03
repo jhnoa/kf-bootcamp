@@ -4,7 +4,7 @@ class createCounter{
     }
 
     increment(){
-        this.count +=1
+        count +=1
     }
 
     decrement(){
