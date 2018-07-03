@@ -1,6 +1,7 @@
 class CreateCounter{
-    count = 0;
-
+    constructor(){
+        this.count = 0
+    }
 
     increment(){
         this.count +=1
@@ -15,7 +16,7 @@ class CreateCounter{
     }
 }
 
-let count = new createCounter();
+let count = new CreateCounter();
 count.increment()
 count.decrement()
 count.increment()
